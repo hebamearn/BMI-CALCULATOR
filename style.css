@@ -1,0 +1,12 @@
+body{
+  font-family: pacifico static ;
+}
+img{
+  width: 135px;
+  height: 100px;
+  margin-top: 30px;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
