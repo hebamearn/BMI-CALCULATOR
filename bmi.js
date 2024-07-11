@@ -56,14 +56,14 @@ class Bmi {
 
         if (bminumbervalue< 18) {
             return ("under weight")
-        } else if (bminumbervalue>= 18 && bmi <= 25) {
+        } else if (bminumbervalue>= 18.5 && bmi <= 24.9) {
             return ("normal weight")
 
 
-        } else if (bminumbervalue> 25 && bmi<=30) {
+        } else if (bminumbervalue> 24.9 && bmi<=29.9) {
             return ("over weight" )
         }
-        else if (bminumbervalue > 30) {
+        else if (bminumbervalue > 29.9) {
             return ("obese")
         } else {
             return "NA"
