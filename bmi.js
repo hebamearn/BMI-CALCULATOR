@@ -17,7 +17,7 @@ class Bmi {
         if (name !== '' && height !== '' && weight !== '') {
 
             let cbmi = weight / heightS;
-            let result = Math.trunc(cbmi)
+            let result = cbmi.toFixed(2)
 
 
             localStorage.setItem('user_bmi', result);
